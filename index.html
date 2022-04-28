@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AR Rahman</title>
+
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+
+        .outer-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        input {
+            width: 30rem;
+            height: 40px;
+            font-size: 30px;
+            border: none;
+            border-bottom: 2px solid rgb(68, 205, 255);
+            margin-bottom: 20px;
+            outline: none;
+        }
+
+        .list{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #myUL {
+            text-align: center;
+
+        }
+
+        #myUL li {
+            list-style: none;
+            margin-bottom: 5px;
+            display: flex;
+            align-items: center;
+        }
+
+        #myUL li button {
+            font-size: 25px;
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+
+        #myUL li button:hover {
+            border-bottom: 2px solid rgb(68, 205, 255);
+        }
+    </style>
+</head>
+
+<body>
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for song">
+    <div class="list">
+        <ul id="myUL">
+            <li><button>Adele</button></li>
+            <li><button>Adele</button></li>
+            <li><button>Adele</button></li>
+        </ul>
+    </div>
+
+
+    <script>
+        function myFunction() {
+            // Declare variables
+            var input, filter, ul, li, a, i, txtValue;
+            input = document.getElementById('myInput');
+            filter = input.value.toUpperCase();
+            ul = document.getElementById("myUL");
+            li = ul.getElementsByTagName('li');
+
+            // Loop through all list items, and hide those who don't match the search query
+            for (i = 0; i < li.length; i++) {
+                a = li[i].getElementsByTagName("button")[0];
+                txtValue = a.textContent || a.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    li[i].style.display = "";
+                } else {
+                    li[i].style.display = "none";
+                }
+            }
+        }
+    </script>
+
+    <script>
+        // #=======================Songs===========================#
+
+        const songs =
+
+            [
+                {
+                    "name": "Swades: Yun Hi Chala Chal",
+                    "link": "https://www.youtube.com/watch?v=eEeX2QMlSlo",
+                    "thumbnail": "https://i.ytimg.com/vi/eEeX2QMlSlo/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCo1ton97LS0bRnrzl_OCPFPyLgkw"
+                },
+
+                {
+                    "name": "Bombay: Tu Hi Re",
+                    "link": "https://www.youtube.com/watch?v=o0ntND9OZ6I",
+                    "thumbnail": "https://i.ytimg.com/vi/o0ntND9OZ6I/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAt_gCszoP7xQEBjE9eUPCgiYErWQ"
+                },
+
+                {
+                    "name": "Bombay: Humma Humma",
+                    "link": "https://www.youtube.com/watch?v=7Jojcy2siAo",
+                    "thumbnail": "https://i.ytimg.com/vi/7Jojcy2siAo/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAo51Gw13E2NkIo3qChm9uFMpWd-w"
+                }
+            ]
+
+        // #========================================================#
+
+        function addNewSong(name, link, thumbnail) {
+            songs.push({ name: name, link: link, thumbnail: thumbnail });
+            return songs
+        }
+
+        function displaySongs() {
+            let displayTemplate = "";
+
+            for (let i = 0; i < songs.length; i++) {
+                displayTemplate += `<li><img height=50 width=75 src="${songs[i].thumbnail}"><button onclick=playSong("${songs[i].link}")>${songs[i].name}</button></li>`
+            }
+
+            const myUL = document.getElementById("myUL");
+            myUL.innerHTML = displayTemplate; 
+        }
+
+        function playSong(link) {
+            open(link)
+        }
+
+        displaySongs();
+    </script>
+</body>
+
+</html>
