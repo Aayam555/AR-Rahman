@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <title>AR Rahman</title>
 
 
@@ -13,34 +16,37 @@
             padding: 0;
             margin: 0;
             box-sizing: border-box;
+            font-family: 'Ubuntu', sans-serif;
         }
 
-
-        .outer-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
+        body {
+            height: 100vh;
+            background-color: #063866;
         }
 
         input {
-            width: 30rem;
-            height: 40px;
+            width: 25rem;
             font-size: 30px;
             border: none;
             border-bottom: 2px solid rgb(68, 205, 255);
             margin-bottom: 20px;
             outline: none;
+            background-color: #063866;
+            color: white;
         }
 
-        .list{
+        input::placeholder {
+            color: rgba(245, 245, 245, 0.689);
+        }
+
+        .input {
             display: flex;
             justify-content: center;
-            align-items: center;
         }
 
-        #myUL {
-            text-align: center;
-
+        .list {
+            display: flex;
+            justify-content: center;
         }
 
         #myUL li {
@@ -55,24 +61,54 @@
             background: none;
             border: none;
             cursor: pointer;
+            color: white;
         }
 
         #myUL li button:hover {
             border-bottom: 2px solid rgb(68, 205, 255);
         }
+
+        .search-container {
+            position: relative;
+            top: 10vh;
+        }
+
+        .thumbnail {
+            height: 55px;
+            width: 75px;
+            border-radius: 50%;
+        }
+
+        .AR-Rahman {
+            display: flex;
+            justify-content: center;
+        }
+
+        #AR-Rahman-image {
+            height: 300px;
+            width: 300px;
+            border-radius: 50%;
+        }
+
+        .thumbnail {
+            margin-right: 10px;
+        }
     </style>
 </head>
 
 <body>
-    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for song">
-    <div class="list">
-        <ul id="myUL">
-            <li><button>Adele</button></li>
-            <li><button>Adele</button></li>
-            <li><button>Adele</button></li>
-        </ul>
+    <div class="AR-Rahman">
+        <img id="AR-Rahman-image" src="./AR-Rahman.webp">
     </div>
-
+    <div class="search-container">
+        <div class="input">
+            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for song">
+        </div>
+        <div class="list">
+            <ul id="myUL">
+            </ul>
+        </div>
+    </div>
 
     <script>
         function myFunction() {
@@ -95,56 +131,7 @@
             }
         }
     </script>
-
-    <script>
-        // #=======================Songs===========================#
-
-        const songs =
-
-            [
-                {
-                    "name": "Swades: Yun Hi Chala Chal",
-                    "link": "https://www.youtube.com/watch?v=eEeX2QMlSlo",
-                    "thumbnail": "https://i.ytimg.com/vi/eEeX2QMlSlo/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCo1ton97LS0bRnrzl_OCPFPyLgkw"
-                },
-
-                {
-                    "name": "Bombay: Tu Hi Re",
-                    "link": "https://www.youtube.com/watch?v=o0ntND9OZ6I",
-                    "thumbnail": "https://i.ytimg.com/vi/o0ntND9OZ6I/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAt_gCszoP7xQEBjE9eUPCgiYErWQ"
-                },
-
-                {
-                    "name": "Bombay: Humma Humma",
-                    "link": "https://www.youtube.com/watch?v=7Jojcy2siAo",
-                    "thumbnail": "https://i.ytimg.com/vi/7Jojcy2siAo/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAo51Gw13E2NkIo3qChm9uFMpWd-w"
-                }
-            ]
-
-        // #========================================================#
-
-        function addNewSong(name, link, thumbnail) {
-            songs.push({ name: name, link: link, thumbnail: thumbnail });
-            return songs
-        }
-
-        function displaySongs() {
-            let displayTemplate = "";
-
-            for (let i = 0; i < songs.length; i++) {
-                displayTemplate += `<li><img height=50 width=75 src="${songs[i].thumbnail}"><button onclick=playSong("${songs[i].link}")>${songs[i].name}</button></li>`
-            }
-
-            const myUL = document.getElementById("myUL");
-            myUL.innerHTML = displayTemplate; 
-        }
-
-        function playSong(link) {
-            open(link)
-        }
-
-        displaySongs();
-    </script>
+    <script src="./index.js"></script>
 </body>
 
 </html>

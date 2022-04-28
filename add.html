@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add new Song</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        input {
+            display: block;
+            margin: 20px;
+            height: 20px;
+            width: 18rem;
+            border: none;
+            border-bottom: 2px solid rgb(68, 205, 255);
+            outline: none;
+        }
+
+        .add-container {
+            width: 20rem;
+            box-shadow: 0 8px 16px 8px rgb(240, 239, 239);
+            text-align: center;
+        }
+
+        .add-container button {
+            height: 30px;
+            width: 100%;
+            background-color: rgb(68, 205, 255);
+            color: white;
+            font-size: 20px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="add-container">
+        <input id="name" type="text" placeholder="Enter name" autocomplete="off">
+        <input id="link" type="text" placeholder="Enter link" autocomplete="off">
+        <input id="thumbnail" type="text" placeholder="Enter thumbnail link" autocomplete="off">
+
+        <button onclick="add()">Add</button>
+    </div>
+
+    <script src="./index.js"></script>
+
+    <script>
+        function add() {
+            const name = document.getElementById("name").value;
+            const link = document.getElementById("link").value;
+            const thumbnailLink = document.getElementById("thumbnail").value;
+            console.log((addNewSong(name, link, thumbnailLink)));
+        }
+    </script>
+</body>
+
+</html>
