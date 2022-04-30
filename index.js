@@ -91,6 +91,56 @@
         "name": "Mimi: Param Sundari",
         "link": "https://www.youtube.com/watch?v=w4ClQO0FFQg",
         "thumbnail": "https://i.ytimg.com/vi/w4ClQO0FFQg/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBunoXRoj7EDR2eVHNjtKn4eSn7nw"
+    },
+    {
+        "name": "Rockstar: Nadaan Parinde",
+        "link": "https://www.youtube.com/watch?v=ttIKsnxPrMY",
+        "thumbnail": "https://i.ytimg.com/vi/ttIKsnxPrMY/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBHKx9UTvumavnFgSCOKdOpzGY3ZQ"
+    },
+    {
+        "name": "Rockstar: Kun Faya Kun",
+        "link": "https://www.youtube.com/watch?v=T94PHkuydcw",
+        "thumbnail": "https://i.ytimg.com/vi/T94PHkuydcw/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAKJ9P9C03sjZc2GHBvQ93Q1djK2g"
+    },
+    {
+        "name": "Rockstar: Sadda Haq",
+        "link": "https://www.youtube.com/watch?v=p9DQINKZxWE",
+        "thumbnail": "https://i.ytimg.com/vi/p9DQINKZxWE/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCG2CK0hMK8CLidn2q0mRgXhEbY9A"
+    },
+    {
+        "name": "Rockstar: Phir Se Ud Chala",
+        "link": "https://www.youtube.com/watch?v=2mWaqsC3U7k",
+        "thumbnail": "https://i.ytimg.com/vi/2mWaqsC3U7k/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBA6BrXYoRUB9e8-1I7NoIfXPn0lw"
+    },
+    {
+        "name": "Rockstar: Tum Ho",
+        "link": "https://www.youtube.com/watch?v=gkCKTuR-ECI",
+        "thumbnail": "https://i.ytimg.com/vi/gkCKTuR-ECI/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBUrd70kzqCskZRffkQsMD6o9ksMw"
+    },
+    {
+        "name": "Rockstar: Jo bhi main",
+        "link": "https://www.youtube.com/watch?v=_kOzFMR9Hys",
+        "thumbnail": "https://i.ytimg.com/vi/_kOzFMR9Hys/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDv9GvxPkUsHzZTENnivDRlXZ5ByQ"
+    },
+    {
+        "name": "Rockstar: Katiya Karoon",
+        "link": "https://www.youtube.com/watch?v=IlVjro3FlXM",
+        "thumbnail": "https://i.ytimg.com/vi/IlVjro3FlXM/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDt5IY6MI9RLF3qy63fwGmRYrcO5A"
+    },
+    {
+        "name": "Rockstar: HAAWA HAAWA",
+        "link": "https://www.youtube.com/watch?v=xQryki2ZhYA",
+        "thumbnail": "https://i.ytimg.com/vi/xQryki2ZhYA/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDF4xcpjmRSqB2UNDV7Fn6MgQ8M7w"
+    },
+    {
+        "name": "Rockstar: Aur Ho",
+        "link": "https://www.youtube.com/watch?v=w7lNCCSFowk",
+        "thumbnail": "https://i.ytimg.com/vi/w7lNCCSFowk/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCapxQMPZXpAM8aFv2o8mk4GXfKJA"
+    },
+    {
+        "name": "Rockstar: Tum Ko Paa Hi Liya",
+        "link": "https://www.youtube.com/watch?v=WJuvHfld6fI",
+        "thumbnail": "https://i.ytimg.com/vi/WJuvHfld6fI/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBPUtFDKHaOAWXQ2GmspB3-kGxrag"
     }
 ]
 
