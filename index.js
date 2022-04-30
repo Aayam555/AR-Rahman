@@ -11,7 +11,7 @@
         "name": "Swades: Yeh Jo Des Hai Tera",
         "thumbnail": "https://i.ytimg.com/vi/4tiVPuLbbHg/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDSzeS6fOpFmMGl7KDnLOfJbx9sLg",
         "link": "https://www.youtube.com/watch?v=4tiVPuLbbHg"
-    }, 
+    },
     {
         "name": "Bombay: Tu Hi Re",
         "link": "https://www.youtube.com/watch?v=o0ntND9OZ6I",
@@ -146,6 +146,51 @@
         "name": "Rockstar: Tum Ko Paa Hi Liya",
         "link": "https://www.youtube.com/watch?v=WJuvHfld6fI",
         "thumbnail": "https://i.ytimg.com/vi/WJuvHfld6fI/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBPUtFDKHaOAWXQ2GmspB3-kGxrag"
+    },
+    {
+        "name": "Taal: Ishq Bina",
+        "link": "https://www.youtube.com/watch?v=SqZbGOCuai4",
+        "thumbnail": "https://i.ytimg.com/vi/SqZbGOCuai4/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBnY67Ackl2h79EGLscHDPW0Q3bJw"
+    },
+    {
+        "name": "Taal: Taal Se Taal Mila",
+        "link": "https://www.youtube.com/watch?v=8YqerfkvzyA",
+        "thumbnail": "https://i.ytimg.com/vi/8YqerfkvzyA/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAnH8icAZtRBwb1WWUMrdCZRnp5tA"
+    },
+    {
+        "name": "Taal: Nahin Saamne Tu",
+        "link": "https://www.youtube.com/watch?v=OzJ6m0tpVIo",
+        "thumbnail": "https://i.ytimg.com/vi/OzJ6m0tpVIo/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAUh0lQK2UNY7unUhPgJvHvUrUzEw"
+    },
+    {
+        "name": "Taal: Kahin Aag Lage Lag Jaaye",
+        "link": "https://www.youtube.com/watch?v=-qlrEgMX7pE",
+        "thumbnail": "https://i.ytimg.com/vi/-qlrEgMX7pE/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDOXeU18L3pQiA5YmLbTRd4n9W7iA"
+    },
+    {
+        "name": "Taal: Kariye Na",
+        "link": "https://www.youtube.com/watch?v=7opUlRH839w",
+        "thumbnail": "https://i.ytimg.com/vi/7opUlRH839w/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCihn_ld6tOpqvLhu0Z6zQer5PDdw"
+    },
+    {
+        "name": "Taal: Ni Main Samajh Gayi ",
+        "link": "https://www.youtube.com/watch?v=mPmYZ71NnPQ",
+        "thumbnail": "https://i.ytimg.com/vi/mPmYZ71NnPQ/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDKIujlOGqEcKZa7XGl8M_QukIkUg"
+    },
+    {
+        "name": "Taal: Ishq Bina Ishq Bina",
+        "link": "https://www.youtube.com/watch?v=bR0v-k9UKzk",
+        "thumbnail": "https://i.ytimg.com/vi/bR0v-k9UKzk/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBy6MCGk05WN84xd2Yi4g6_fG3S7Q"
+    },
+    {
+        "name": "Taal: Ramta Jogi",
+        "link": "https://www.youtube.com/watch?v=onfy6y07ujQ",
+        "thumbnail": "https://i.ytimg.com/vi/onfy6y07ujQ/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAp7yDDvFxhFmFy-cXEZ6dHr6jtdA"
+    },
+    {
+        "name": "Taal:Taal Se Taal (Western)",
+        "link": "https://www.youtube.com/watch?v=MelMTp_dxNQ",
+        "thumbnail": "https://i.ytimg.com/vi/MelMTp_dxNQ/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCjSTbpvoRLnNNiyGUU8IOvpkr0mA"
     }
 ]
 
