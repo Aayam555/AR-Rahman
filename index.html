@@ -70,7 +70,7 @@
 
         .search-container {
             position: relative;
-            top: 10vh;
+            top: 5vh;
             margin: 30px;
         }
 
@@ -94,6 +94,13 @@
         .thumbnail {
             margin-right: 10px;
         }
+
+        #songs-number-counter {
+            font-size: 50px;
+            color: white;
+            display: block;
+            text-align: center;
+        }
     </style>
 </head>
 
@@ -101,6 +108,7 @@
     <div class="AR-Rahman">
         <img id="AR-Rahman-image" src="./AR-Rahman.webp">
     </div>
+    <span id="songs-number-counter"></span>
     <div class="search-container">
         <div class="input">
             <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for song">
@@ -133,6 +141,7 @@
         }
     </script>
     <script src="./index.js"></script>
+    <script>document.getElementById("songs-number-counter").innerText = `${songs.length} songs`</script>
 </body>
 
 </html>
