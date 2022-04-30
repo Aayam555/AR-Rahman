@@ -188,7 +188,7 @@
         "thumbnail": "https://i.ytimg.com/vi/onfy6y07ujQ/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAp7yDDvFxhFmFy-cXEZ6dHr6jtdA"
     },
     {
-        "name": "Taal:Taal Se Taal (Western)",
+        "name": "Taal: Taal Se Taal (Western)",
         "link": "https://www.youtube.com/watch?v=MelMTp_dxNQ",
         "thumbnail": "https://i.ytimg.com/vi/MelMTp_dxNQ/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCjSTbpvoRLnNNiyGUU8IOvpkr0mA"
     }
